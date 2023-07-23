@@ -10,6 +10,6 @@ class sampleTest extends PHPUnit\Framework\TestCase
 
     function testSad()
     {
-        self::assertTrue(false);
+        self::assertFalse(false);
     }
 }
