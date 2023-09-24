@@ -1,8 +1,10 @@
 <?php
 
-function say($what)
+function say()
 {
-    echo $what;
+    fscanf(STDIN, "%s", $ex1);
+    echo $ex1;  
+
 }
 
 ?>
@@ -12,6 +14,6 @@ function say($what)
     <title>Hello from Container</title>
 </head>
 <body>
-    <?php say("Vicente Monfort: Hello from " . php_uname("r")); ?>
+    <?php say(); ?>
 </body>
 </html>
