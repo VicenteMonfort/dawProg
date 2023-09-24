@@ -1,9 +1,10 @@
 <?php
 
+
 function say()
 {
-    fscanf(STDIN, "%s", $ex1);
-    echo $ex1;  
+    //Pon aquí tu código PHP
+      
 
 }
 
